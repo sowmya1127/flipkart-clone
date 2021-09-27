@@ -391,5 +391,9 @@ color:white;
         right: 5px;
         
     }
+    .dropdown{
+        top:120px;
+        right:-80px
+    }
 
 }
