@@ -1,0 +1,114 @@
+.main1{
+    display: flex;
+    overflow-x:auto; 
+    background-color: gainsboro; 
+}
+.main_home{
+    background-color: white;
+}
+
+
+.main{
+    background-color:gainsboro;
+}
+
+
+.main2_Deals{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 2px solid gainsboro;
+}
+.deals_header{
+    text-align:left;
+   font-size: x-large;
+   margin-top:10px;
+   font-weight: bolder ;
+}
+.deals_view{
+    background-color: #047BD5;
+    height: 30px; 
+    align-items: center;
+    margin: 10px;
+    font-size: large;
+    padding:5px 10px;
+
+
+}
+.deals_view span{
+    color: white;
+}
+.main2_images{
+    display: flex;
+    margin-top: 10px; 
+    overflow-x:hidden; 
+    margin-left:50px ;
+    margin-right: 20px; 
+}
+.style1{
+    margin-right: 40px;
+    color: black;
+    
+}
+.main2_style1{
+    display: flex;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.main2_style2{
+    margin-top: 20px;
+   
+}
+.main3_style3{
+    margin-top:20px;
+    
+}
+
+.main2_part2>img{
+    height: 300px;
+    margin:5px;
+}
+.main2_offers{
+  display: flex; 
+  justify-content: space-between; 
+  border-bottom: 2px solid gainsboro;
+}
+@media(max-width:768px){
+    .main1{
+        display: none;
+       }
+    .main2_part1{
+        width: 400px;
+    }
+    .deals_header span{
+        font-size: medium;
+    }
+    .deals_view span{
+      font-size: medium;
+      
+    }
+    .main2_images{
+        width:400px;
+        overflow-x: auto;
+        margin-left: 5px;
+    }
+    .main2_images img{
+        height: 100px;
+    }
+    .main2_part2{
+        display: none;
+        
+    }
+    .main2_style2,
+    .main2_style3,
+    .main2_style4{
+        width: 400px;
+    }
+
+
+}
+
+
+
+ 

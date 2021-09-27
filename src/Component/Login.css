@@ -1,0 +1,64 @@
+.login{
+    margin-bottom: 200px;
+margin-top: 200px;
+text-align: center;
+margin-left: 400px;
+width:100%;
+max-width: 800px;
+
+
+}
+
+.login_main{
+    display: flex;
+    
+}
+.login_img>img{
+    width:200px;
+}
+.login_stage1{
+width:200px;
+height: 400px;
+background-color: #047BD5
+
+}
+.login_heading{
+    margin-bottom: 50px;
+}
+.login_stage2{
+    width:400px;
+    background-color:white ;
+}
+.login1{
+    display: flex;
+    flex-direction: column;
+
+}
+.login2{
+    display: flex;
+    flex-direction: column;
+}
+.text,
+.password{
+    margin-bottom: 50px;
+    height: 10px;
+}
+.login1_password{
+    display: flex;
+
+}
+.forget{
+    color:#047BD5;
+}
+.login_botton{
+       background-color: chocolate;
+    color: white;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    margin-left: 180px;
+}
+.login2_des{
+    font-size: small;
+}
+

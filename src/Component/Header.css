@@ -1,0 +1,395 @@
+ 
+.header_main1{
+    display: flex;
+    background-color:#047BD5 ;
+    color: white;
+}
+.header1{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.header1_stage1 span{
+    color: white;
+}
+.header1_style1{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 500;
+}
+.header1_style2{
+    font-style:italic ;
+    font:x-small;
+}
+.header1_style3{
+    color: yellow;
+}
+.header1_star{
+    width:15px
+}
+.header2_search>input{
+    width:600px;
+    height: 35px;
+    margin-top: 15px;margin-left: 2px;
+}
+.header2_search{
+    position: relative;
+}
+.search_icon{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color:  #047BD5;
+
+}
+.header3{
+    display: flex;
+    margin-left: 150px;
+}
+.header3_login{
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.header3_style{
+    background-color: white;
+    color: #047BD5; 
+    padding: 5px 40px;
+    font-size: large;
+    
+
+    
+}
+.header_more{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: medium;
+    font-weight: 500;
+}
+.header_cart{
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+}
+.cart_style{
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}
+.main2_style{
+    margin-right:70px;
+    display: flex;
+    width:70px;
+    align-items: center;
+}
+.header_main2{
+    display: flex;
+    margin-left:200px ;
+}
+.dropdown{
+    max-width: 250px;
+    width:100%;
+    padding:10px;
+    background-color: white;
+    border:2px solid gainsboro;
+    position: relative;
+}
+.dropdown_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+   
+
+}
+.dropdown_header span{
+    z-index: 3;
+}
+.dropdown_body ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.dropdown_body ul li{
+ display:block;
+ padding: 8px;
+ margin-top:15px ;
+ cursor: pointer;
+}
+.dropdown_icon{
+    color: #2874f0;
+    margin-bottom: -5px;
+}
+.dropdown_triangle{
+    width: 0;
+    height: 0;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom:50px solid white ;
+    position: absolute;
+    top: 10px;
+    left:50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.dropdown_on{
+    position: fixed;
+    top:60px;
+    right:300px;
+    transition: 2s;
+    z-index: 100;
+
+}
+.dropdown_off{
+    position: fixed;
+    top:60px;
+    right:300px;
+display: none;
+transition: 2s;
+}
+
+.login_on{
+    width:100%;
+    height: 100vh;
+    background: rgb(0, o, o);
+    background: rgba(0, 0, 0, 0.8);
+    position:fixed ;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.login_off{
+    width:100%;
+    height: 100vh;
+    background: rgb(0, o, o);
+    background: rgba(0, 0, 0, 0.8);
+    position:fixed ;
+    top:0;
+    left:0;
+    display: none;
+}
+.login_main{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.login_part1{
+max-width: 250px;
+width: 100%;
+background:#2874f0 ;
+padding: 20px;
+color:white;
+    
+}
+.login_home{
+ max-width: 800px;
+ width:100%;
+ display: flex;
+}
+.login_img{
+    margin-top: 230px;
+}
+.login_part2{
+    background: #fff;
+    padding: 30px;
+}
+.login_email{
+    position: relative;
+}
+.login_email input{
+    width:100%;
+    height: 30px;
+    border:none;
+    margin-top: 40px;
+    border-bottom: 1px solid gainsboro;
+    font-size: 16px;
+}
+.login_email input:focus{
+    outline: none;
+
+}
+.color_blue{
+    color: #2874f0;
+}
+.login_part2 p{
+ font-size: 14px;
+}
+.login_button{
+    width: 100%;
+    height: 30px;
+    background-color: #fb641b;
+    border:1px solid #fb641b;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.login_or{
+    text-align: center;
+}
+.create_button{
+    width: 100%;
+    height: 30px;
+    background-color: #f0f0f0;
+    border:1px solid #f0f0f0;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.login_close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.forget{
+    position: absolute;
+    top:50px;
+    right: 10px;
+    color: #2874f0;
+}
+.dropdown2{
+    max-width: 250px;
+    width:100%;
+    padding:10px;
+    background-color: white;
+    border:2px solid gainsboro;
+    position: relative;
+} 
+.dropdown_body2 ul{
+    margin: 0; 
+     padding: 0;
+    list-style: none;
+}
+.dropdown_body2 ul li{
+    display:block;
+    padding:10px;
+    margin-top:15px ;
+    cursor: pointer;
+    
+
+    
+}
+.dropdown2_icon{
+    color: #2874f0;
+    margin-bottom: -5px;
+}
+.dropdown2_triangle{
+    width: 0;
+    height: 0;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom:50px solid   white;
+    position: absolute;
+    top: 10px;
+    left:50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    
+}
+.dropdown_on2{
+    top:55px;
+    right:100px;
+    transition: 2s;
+    position: fixed;
+    z-index:100
+}
+.dropdown_off2{
+    top:60px;
+    right:300px;
+    transition: 2s;
+    position: fixed;
+    display: none;
+}
+.dropdown3{
+    max-width: 250px;
+    width: 100%;
+    padding:10px;
+    background-color: white;
+    position: relative;
+    
+}
+.dropdown_body3 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.dropdown_body3 ul li{
+    margin-top: 1opx;
+    padding:10px;
+    cursor: pointer;
+    display: block;
+    
+}
+.dropdown_triangle3{
+    width:0;
+    height: 0;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 50px solid  white;
+    position: absolute;
+    top:-15px;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 3;
+}
+.dropdown_on3{
+    position: fixed;
+    right: 760px;
+    top:160px;
+    transition: 2s;
+}
+.dropdown_off3{
+    position: fixed;
+    right: 740px;
+    top:155px;
+    transition: 2s;
+    display: none;
+}
+@media(max-width:768px){
+  .header_main1{
+      flex-direction: column;
+      width: 400px;
+  }
+  .header2_search>input{
+      width: 390px;
+  }
+  .header_search{
+      width: 400px;
+  }
+  .header1{
+      margin:0
+  }
+  .header3{
+      margin-left: 0px;
+      width:390px;
+      padding:5px;
+  }
+  .header3_login{
+      margin-left: 10px;
+  }
+  .header_main2{
+      display: none;
+  }
+  
+    .login_main{
+        display: block;
+        width: 300px;
+        
+    }
+    .login_part1{
+        display: none;
+        width: 398px;
+    }
+    .login_part2{
+        margin-left: -20px;
+    }
+    .login_close{
+        right: 5px;
+        
+    }
+
+}

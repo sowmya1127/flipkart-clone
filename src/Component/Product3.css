@@ -1,0 +1,26 @@
+.Product3_stage1,
+.Product3_stage2,
+.Product3_stage3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    transform-style: flat;
+    
+}
+
+.Product3{
+    max-width: 1200px;
+    width:100%;
+    margin:20px auto;
+    background-color: ghostwhite;
+}
+@media(max-width:768px){
+    .Product3_stage1,
+    .Product3_stage2,
+    .Product3_stage3{
+    flex-direction: column;
+
+}
+
+}
